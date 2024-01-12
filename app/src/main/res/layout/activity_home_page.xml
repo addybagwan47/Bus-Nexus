@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    android:orientation="vertical"
+
+    >
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="48dp"
+
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/menu_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="Bus Nexus"
+        android:textColor="#F44336"
+        android:textSize="33dp"
+
+        app:fontFamily="@font/robot900"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="44dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            app:cardCornerRadius="33dp"
+            tools:ignore="OnClick"
+            android:id="@+id/Card_new_Pass"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:background="@drawable/cardborderempty"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="vertical"
+
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ticket"
+
+                    />
+
+                <TextView
+                    android:layout_width="222dp"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="New Pass"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="33dp"
+            android:id="@+id/LOCATION"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:background="@drawable/cardborder"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/googlemap"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="222dp"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Show Location"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="33dp"
+            android:id="@+id/Card_Bus_Detail"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:background="@drawable/cardborderempty"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/bus"
+
+                    />
+
+                <TextView
+                    android:layout_width="222dp"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Bus Detail"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cardborder"
+            app:cardCornerRadius="33dp"
+            android:id="@+id/Card_Pass_Validity"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:background="@drawable/cardborder"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/busticket"
+
+                    />
+
+                <TextView
+                    android:layout_width="222dp"
+                    android:layout_height="30dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Pass Validity"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

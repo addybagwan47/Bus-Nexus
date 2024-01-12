@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/New_Pass_Back_Btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+
+        android:background="@drawable/back"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!--    Registration Text-->
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/robot900"
+        android:text="Bus Nexus"
+        android:textAlignment="center"
+
+        android:textColor="#FA4437"
+        android:textSize="39dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="NEW PASS"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/New_Pass_Name"
+        android:layout_width="297dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/textboxborder"
+        android:hint="Enter Name"
+
+        android:paddingLeft="19dp"
+
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/New_Pass_Route"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="@+id/New_Pass_Route"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/New_Pass_Route"
+        android:layout_width="296dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textboxborder"
+
+        android:hint="Enter Route"
+        android:paddingLeft="19dp"
+
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/New_Pass_Name"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/New_Pass_Class"
+        android:layout_width="133dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textboxborder"
+        android:hint="Enter Class"
+
+        android:paddingLeft="19dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/New_Pass_Year"
+        app:layout_constraintStart_toStartOf="@+id/New_Pass_Route"
+        app:layout_constraintTop_toBottomOf="@+id/New_Pass_Route"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/New_Pass_Year"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textboxborder"
+        android:hint="Enter Class"
+        android:paddingLeft="19dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/New_Pass_Route"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toEndOf="@+id/New_Pass_Class"
+        app:layout_constraintTop_toBottomOf="@+id/New_Pass_Route" />
+
+    <EditText
+        android:id="@+id/New_Pass_Parent_name"
+        android:layout_width="292dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textboxborder"
+
+        android:hint="Enter Parent Name"
+        android:paddingLeft="19dp"
+        android:textColorHint="@color/black"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/New_Pass_Class" />
+
+    <EditText
+        android:id="@+id/New_Pass_Email"
+        android:layout_width="289dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="12dp"
+
+        android:background="@drawable/textboxborder"
+        android:hint="Enter Email ID"
+        android:paddingLeft="19dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/New_Pass_Parent_name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/New_Pass_Parent_name"
+        app:layout_constraintTop_toBottomOf="@+id/New_Pass_Parent_name"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/New_Pass_Contact"
+        android:layout_width="296dp"
+        android:layout_height="46dp"
+        android:inputType="number"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/textboxborder"
+        android:hint="Enter Contact No"
+        android:paddingLeft="19dp"
+
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/New_Pass_Email"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="@+id/New_Pass_Email"
+        app:layout_constraintTop_toBottomOf="@+id/New_Pass_Email"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/New_Pass_Address"
+        android:layout_width="291dp"
+        android:layout_height="51dp"
+
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textboxborder"
+        android:hint="Enter Address"
+        android:paddingLeft="19dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/New_Pass_Contact"
+        app:layout_constraintStart_toStartOf="@+id/New_Pass_Contact"
+        app:layout_constraintTop_toBottomOf="@+id/New_Pass_Contact"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/New_Pass_Fees"
+        android:layout_width="290dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/textboxborder"
+
+        android:hint="Fees Display"
+        android:paddingLeft="19dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/New_Pass_Address"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/New_Pass_Address"
+        app:layout_constraintTop_toBottomOf="@+id/New_Pass_Address"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/New_Pass_Btn"
+        android:layout_width="163dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/textboxborder"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif-condensed"
+        android:text="SUBMIT"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/New_Pass_Fees"
+        app:layout_constraintVertical_bias="0.14"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

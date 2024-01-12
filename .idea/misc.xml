@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1635" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/drawable/back.xml" value="0.1375" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/drawable/backcolor.xml" value="0.2" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/drawable/cardborder.xml" value="0.1635" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/drawable/cardborderempty.xml" value="0.279" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1635" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/drawable/list_rect.xml" value="0.1735" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/drawable/menu_icon.xml" value="0.1735" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/drawable/textboxborder.xml" value="0.1605" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/font/acme.xml" value="0.1924342105263158" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/font/allura.xml" value="0.19177631578947368" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout-large/activity_home_page.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout-large/layout_large.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout-normal/activity_home_page.xml" value="0.2" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout-normal/layout_normal.xml" value="0.22530996152201796" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout-small/activity_home_page.xml" value="0.5742677824267782" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout-small/layout_small.xml" value="0.22445489525438223" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout-xlarge/activity_home_page.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout-xlarge/layout_xlarge.xml" value="0.205859375" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout/activity_bus_detail.xml" value="0.264" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout/activity_custome_list_view.xml" value="0.1" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout/activity_home_page.xml" value="0.2" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout/activity_location.xml" value="0.264" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout/activity_main.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout/activity_new_pass.xml" value="0.264" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout/activity_pass_validity.xml" value="0.264" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout/activity_registration.xml" value="0.2" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout/activity_student_login.xml" value="0.16" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout/custome_list_view.xml" value="0.20427350427350427" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/layout/list_item.xml" value="0.20350577169730655" />
+        <entry key="..\:/Users/prath/AndroidStudioProjects/BuxNexus/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.118" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

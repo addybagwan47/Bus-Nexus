@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    tools:context=".MainActivity">
+
+
+
+    <!--Bus Nexus Text-->
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Driver Name :"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/Bus_detail_Driver_name"
+        app:layout_constraintEnd_toEndOf="@+id/Bus_detail_Driver_name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Bus_detail_Driver_name"
+        app:layout_constraintTop_toBottomOf="@+id/Bus_detail_Bus_no"
+        app:layout_constraintVertical_bias="0.808"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Bus_Detail_Home_Btn"
+        android:layout_width="131dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/textboxborder"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Home"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/Bus_detail_Driver_No"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/Bus_detail_Driver_No"
+        app:layout_constraintTop_toBottomOf="@+id/Bus_detail_Driver_No"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/robot900"
+        android:text="Bus Nexus"
+        android:textAlignment="center"
+
+        android:textColor="#FA4437"
+        android:textSize="39dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <!--    Registration Text-->
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Bus Detail"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/Bus_Detail_Back_Btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+
+        android:background="@drawable/back"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Route :"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/Bus_detail_Route"
+        app:layout_constraintEnd_toEndOf="@+id/Bus_detail_Route"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Bus_detail_Route"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/Bus_detail_Route"
+        android:layout_width="290dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/textboxborder"
+        android:hint="Route Display"
+        android:inputType="number"
+        android:paddingLeft="19dp"
+
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Bus Number :"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/Bus_detail_Bus_no"
+        app:layout_constraintEnd_toEndOf="@+id/Bus_detail_Bus_no"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Bus_detail_Bus_no"
+        app:layout_constraintTop_toBottomOf="@+id/Bus_detail_Route"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/Bus_detail_Bus_no"
+        android:layout_width="290dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/textboxborder"
+        android:hint="Bus Number Display"
+        android:inputType="number"
+
+        android:paddingLeft="19dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/Bus_detail_Route"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Bus_detail_Route"
+        app:layout_constraintTop_toBottomOf="@+id/Bus_detail_Route"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver Number :"
+
+        android:textSize="22sp"
+android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/Bus_detail_Driver_No"
+        app:layout_constraintEnd_toEndOf="@+id/Bus_detail_Driver_No"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Bus_detail_Driver_No"
+        app:layout_constraintTop_toBottomOf="@+id/Bus_detail_Driver_name"
+        app:layout_constraintVertical_bias="0.657"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/Bus_detail_Driver_name"
+        android:layout_width="290dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/textboxborder"
+        android:hint="Driver Name Display"
+
+        android:inputType="number"
+        android:paddingLeft="19dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bus_detail_Bus_no"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/Bus_detail_Driver_No"
+        android:layout_width="290dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/textboxborder"
+        android:hint="Driver Number Display"
+
+        android:inputType="number"
+        android:paddingLeft="19dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/Bus_detail_Driver_name"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Bus_detail_Driver_name"
+        app:layout_constraintTop_toBottomOf="@+id/Bus_detail_Driver_name"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
