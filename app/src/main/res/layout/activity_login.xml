@@ -23,7 +23,57 @@
 
 
     <!--    Enter ID / No Box-->
+ <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gle_Btn_login"
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:background="@drawable/google"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif-condensed"
 
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+
+        app:layout_constraintEnd_toEndOf="@+id/Login_Btn"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="717dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/FB_Btn_login"
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:background="@drawable/fb"
+        android:backgroundTint="@color/black"
+
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/white"
+
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/Login_Btn"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="717dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/phone_Btn_login"
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/phone"
+
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif-condensed"
+
+
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gle_Btn_login"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toEndOf="@+id/FB_Btn_login"
+        app:layout_constraintTop_toBottomOf="@+id/Login_Btn"
+        app:layout_constraintVertical_bias="0.989"
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textView"
