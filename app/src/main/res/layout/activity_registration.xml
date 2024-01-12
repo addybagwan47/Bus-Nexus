@@ -182,5 +182,52 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Registration_C_Pass" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/FB_Btn_REG"
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:background="@drawable/fb"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif-condensed"
+
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="717dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Phone_Btn_REG"
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:background="@drawable/phone"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif-condensed"
+
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="717dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Gle_Btn_REG"
+        android:layout_width="45dp"
+        android:layout_height="44dp"
+        android:background="@drawable/google"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif-condensed"
+
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="717dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
