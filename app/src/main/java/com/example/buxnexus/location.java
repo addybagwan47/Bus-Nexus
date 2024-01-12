@@ -1,31 +1,29 @@
 package com.example.buxnexus;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatButton;
+public class Location extends AppCompatActivity {
 
-public class location extends AppCompatActivity {
-
-    AppCompatButton back;
-
+    AppCompatButton btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_location);
 
-        back.findViewById(R.id.Location_Back_Btn);
+        btn=findViewById(R.id.location_Back_Btn);
 
-        back.setOnClickListener(new View.OnClickListener() {
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(location.this,HomePage.class);
+                Intent intent=new Intent(Location.this,HomePage.class);
                 startActivity(intent);
             }
         });
-
     }
 }
