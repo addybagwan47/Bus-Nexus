@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class Location extends AppCompatActivity {
+    
 
     AppCompatButton btn;
 
